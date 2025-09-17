@@ -1,8 +1,8 @@
-const User = require("../model/UserModel");
 const jwt = require('jsonwebtoken')
 const cookie = require('cookie')
 const bcrypt = require('bcrypt');
 const { connection } = require("mongoose");
+const User=require('../model/UserModel')
 
 const signup = async (req, res) => {
     const { name,phone,password } = req.body;
@@ -31,7 +31,7 @@ const signup = async (req, res) => {
 }
 
 const login = async (req, res) => {
-    const {name,phone,password } = req.body;
+    const {phone,password } = req.body;
     //console.log(pass)
     try {
         const user = await User.findOne({phone:phone  });
@@ -42,7 +42,7 @@ const login = async (req, res) => {
         }
         //console.log(user)
         const isMatch = await bcrypt.compare(password.toString(), user.password);
-        console.log(isMatch)
+       
         if (!isMatch) {
             return res.status(401).send({ message: "Invalid credentials" });
 
@@ -60,6 +60,7 @@ const login = async (req, res) => {
 
     } catch (error) {
         res.status(500).send({ message: "Internal Server Error login" })
+        console.log(error)
     }
 }
 

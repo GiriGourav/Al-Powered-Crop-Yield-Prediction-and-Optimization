@@ -16,7 +16,7 @@ export default function Signup() {
     e.preventDefault();
     setError("");
     try {
-      const res = await axios.post("/api/auth/signup", form, { withCredentials: true });
+      const res = await axios.post("http://localhost:3000/api/auth/signup", form, { withCredentials: true });
       if (res.status === 201) {
         // redirect to login page on success
         navigate("/login");

@@ -1,4 +1,3 @@
-// Login.jsx
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -16,9 +15,8 @@ export default function Login() {
     e.preventDefault();
     setError("");
     try {
-      const res = await axios.post("/api/auth/login", form, { withCredentials: true });
+      const res = await axios.post("http://localhost:3000/api/auth/login", form, { withCredentials: true });
       if (res.status === 200) {
-        // you can navigate to a dashboard or home page here
         navigate("/dashboard");
       }
     } catch (err) {
@@ -27,12 +25,21 @@ export default function Login() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-green-100 to-yellow-50">
+      <div className="bg-green-700 text-white p-8 rounded-l-2xl shadow-xl w-1/3 hidden md:flex flex-col justify-center items-center">
+        <h1 className="text-3xl font-extrabold mb-4">🌾 Welcome Back Farmer!</h1>
+        <p className="text-center">
+          Log in to access your farm dashboard and manage your crops.
+        </p>
+      </div>
+
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded-lg p-6 w-80"
+        className="bg-white shadow-xl rounded-2xl p-8 w-80 md:w-1/3"
       >
-        <h2 className="text-2xl font-bold mb-4 text-center">Log In</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center text-green-700">
+          Farmer Login
+        </h2>
         {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
 
         <input
@@ -41,7 +48,7 @@ export default function Login() {
           placeholder="Phone"
           value={form.phone}
           onChange={handleChange}
-          className="w-full mb-3 p-2 border rounded"
+          className="w-full mb-3 p-3 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
           required
         />
         <input
@@ -50,13 +57,13 @@ export default function Login() {
           placeholder="Password"
           value={form.password}
           onChange={handleChange}
-          className="w-full mb-3 p-2 border rounded"
+          className="w-full mb-3 p-3 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
           required
         />
 
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+          className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition duration-200"
         >
           Log In
         </button>
