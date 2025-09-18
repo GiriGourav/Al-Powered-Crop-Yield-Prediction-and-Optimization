@@ -17,7 +17,7 @@ export default function Login() {
     try {
       const res = await axios.post("http://localhost:3000/api/auth/login", form, { withCredentials: true });
       if (res.status === 200) {
-        navigate("/dashboard");
+        navigate("/form");
       }
     } catch (err) {
       setError(err.response?.data?.message || "Login failed");
