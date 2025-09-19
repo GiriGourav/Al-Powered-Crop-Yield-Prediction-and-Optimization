@@ -8,16 +8,52 @@ const Suggestions = () => {
 
   useEffect(() => {
     // fetch suggestions from API
-    const fetchSuggestions = async () => {
-      try {
-        const response = await axios.get("/api/getsuggestions");
-        // expected: [{ name: "Wheat", profit: "₹50,000/acre" }, ...]
-        setSuggestions(response.data);
-      } catch (error) {
-        console.error("Error fetching suggestions:", error);
-      }
-    };
-    fetchSuggestions();
+    // const fetchSuggestions = async () => {
+      // try {
+      //   const response = await axios.get("/api/getsuggestions");
+      //   // expected: [{ name: "Wheat", profit: "₹50,000/acre" }, ...]
+      //   setSuggestions(response.data);
+      // } catch (error) {
+      //   console.error("Error fetching suggestions:", error);
+      // }
+
+    // };
+    // fetchSuggestions();
+    
+    // 👇 instead of API call, just fill with dummy data
+    const dummyData = [
+      { 
+        name: "Wheat", 
+        profit: "₹50,000/acre",
+        image: "https://images.unsplash.com/photo-1587049352844-6ec38d3e9427?auto=format&fit=crop&w=400&q=60" 
+      },
+      { 
+        name: "Rice", 
+        profit: "₹40,000/acre",
+        image: "https://images.unsplash.com/photo-1591736468294-bb15aeaaec7f?auto=format&fit=crop&w=400&q=60"
+      },
+      { 
+        name: "Corn", 
+        profit: "₹35,000/acre",
+        image: "https://images.unsplash.com/photo-1592928306064-3d3fa029b5bb?auto=format&fit=crop&w=400&q=60"
+      },
+      { 
+        name: "Soybean", 
+        profit: "₹30,000/acre",
+        image: "https://images.unsplash.com/photo-1600718374071-71f0a5cb9185?auto=format&fit=crop&w=400&q=60"
+      },
+      { 
+        name: "Barley", 
+        profit: "₹25,000/acre",
+        image: "https://images.unsplash.com/photo-1601481097046-6fd7e4b49847?auto=format&fit=crop&w=400&q=60"
+      },
+      { 
+        name: "Potato", 
+        profit: "₹45,000/acre",
+        image: "https://images.unsplash.com/photo-1591375276554-d5ae35d3e4bb?auto=format&fit=crop&w=400&q=60"
+      },
+    ];
+    setSuggestions(dummyData);
   }, []);
 
   // click handler to navigate to knowledge page
@@ -40,6 +76,12 @@ const Suggestions = () => {
             onClick={() => handleCardClick(item)}
             className="cursor-pointer bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-green-100"
           >
+            {/* 👇 New image element */}
+            <img 
+              src={item.image} 
+              alt={item.name} 
+              className="w-full h-40 object-cover rounded-xl mb-4"
+            />
             <h2 className="text-xl font-semibold text-green-800 mb-2">
               {item.name}
             </h2>

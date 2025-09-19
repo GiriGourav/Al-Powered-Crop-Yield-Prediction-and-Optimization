@@ -18,7 +18,7 @@ return (
           <Route path={'/signup'} element={<Signup />} />
           <Route path={'/form'} element={<Form />} />
           <Route path={'/suggestions'} element={<Suggestions />} />
-          <Route path={"/knowledge/:id"} element={<KnowledgePage />} />
+          <Route path={"/knowledge/:id"} element={<KnowlegdePage />} />
           <Route path={'*'} element={<Home />} />
         </Routes>
       </BrowserRouter>
