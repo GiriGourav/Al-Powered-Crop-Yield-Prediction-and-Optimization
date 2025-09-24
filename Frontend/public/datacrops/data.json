@@ -1,0 +1,578 @@
+[
+    {
+        "generalInfo": {
+            "name": "wheat",
+            "description": "Wheat is a cereal grain, a global staple food. It is grown on more land area than any other commercial food and is a major source of carbohydrates.",
+            "lifecycle": "100–150 days from planting to harvest",
+            "marketPrice": "₹20-25/kg (varies by region)",
+            "season": "Best suitable season: October to December (Rabi)",
+            "types": "Lok-1, C-306, HD-2967, PBW-343",
+            "fertiliser": {
+                "khaad": "Farmyard manure (FYM) or compost at 10-15 tons per hectare",
+                "fertiliser": "NPK 120:60:40 kg/ha – Nitrogen split at planting, first irrigation, and tillering stage"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Land Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/e/e3/Wheat_field_tillage.jpg",
+                "descriptionEN": "Plough the land thoroughly and level the soil to ensure uniform germination and growth.",
+                "descriptionHI": "खेत को अच्छी तरह जोतकर समतल करें ताकि अंकुरण और विकास एक समान हो।"
+            },
+            {
+                "week": 2,
+                "title": "Seed Selection and Sowing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/e/e0/Sowing_wheat.jpg",
+                "descriptionEN": "Select high-quality seeds. Sow seeds 4-5 cm deep using a seed drill to maintain row spacing.",
+                "descriptionHI": "अच्छी गुणवत्ता वाले बीजों का चयन करें। बीज ड्रिल का उपयोग करके 4-5 सेमी गहराई पर बीजों की बुवाई करें ताकि कतारों में उचित दूरी बनी रहे।"
+            },
+            {
+                "week": 3,
+                "title": "First Irrigation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/0/07/Wheat_field_irrigation_pivot.jpg",
+                "descriptionEN": "Apply the first irrigation (CRI stage) at about 21 days after sowing. This is a critical stage for root development.",
+                "descriptionHI": "बुवाई के लगभग 21 दिन बाद पहली सिंचाई (CRI अवस्था) करें। यह जड़ विकास के लिए एक महत्वपूर्ण अवस्था है।"
+            },
+            {
+                "week": 4,
+                "title": "Weed Management",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/d/de/Weed_management.jpg",
+                "descriptionEN": "Hand weeding or applying recommended herbicides to control weeds at an early stage.",
+                "descriptionHI": "हाथ से निराई करें या प्रारंभिक अवस्था में खरपतवारों को नियंत्रित करने के लिए अनुशंसित शाकनाशकों का प्रयोग करें।"
+            },
+            {
+                "week": 5,
+                "title": "Second Irrigation and Fertilization",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/2/25/Fertilizer_application_on_wheat.jpg",
+                "descriptionEN": "Apply second irrigation at the tillering stage. Apply remaining nitrogen as top dressing.",
+                "descriptionHI": "टिलरिंग अवस्था में दूसरी सिंचाई करें। शेष नाइट्रोजन उपरी खाद के रूप में डालें।"
+            },
+            {
+                "week": 6,
+                "title": "Disease and Pest Monitoring",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b2/Wheat_rust.jpg",
+                "descriptionEN": "Monitor for diseases like rust and pests like aphids. Spray fungicides or insecticides if needed.",
+                "descriptionHI": "रतुआ जैसे रोगों और एफिड्स जैसे कीटों की निगरानी करें। आवश्यकतानुसार फफूंदनाशक या कीटनाशक का छिड़काव करें।"
+            },
+            {
+                "week": 7,
+                "title": "Grain Filling",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/1/1a/Wheat_grains_on_stem.jpg",
+                "descriptionEN": "Ensure proper irrigation during the grain filling stage for plump grains.",
+                "descriptionHI": "भरपूर दानों के लिए दाना भरने की अवस्था में उचित सिंचाई सुनिश्चित करें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting and Threshing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/5/52/Wheat_harvesting.jpg",
+                "descriptionEN": "Harvest when grains are hard and dry. Threshing separates grains from stalks.",
+                "descriptionHI": "जब दाने सख्त और सूखे हों तब कटाई करें। थ्रेशिंग से दानों को डंठलों से अलग किया जाता है।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "rice",
+            "description": "Rice is a staple food for over half of the world's population. It is a warm-season crop widely grown in paddy fields.",
+            "lifecycle": "100–180 days (varies by variety)",
+            "marketPrice": "₹30-50/kg (varies by region and type)",
+            "season": "Best suitable season: Kharif (monsoon season)",
+            "types": "Basmati, Swarna, Pusa-44, Jaya",
+            "fertiliser": {
+                "khaad": "Well-rotted farmyard manure (FYM) 10 tons per hectare",
+                "fertiliser": "NPK 100:50:50 kg/ha – Nitrogen split at tillering, panicle initiation, and flowering"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Nursery Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/5/50/Rice_nursery.jpg",
+                "descriptionEN": "Prepare a small plot of land for raising seedlings. Ensure the soil is rich and well-prepared.",
+                "descriptionHI": "पौधों को उगाने के लिए एक छोटा खेत तैयार करें। सुनिश्चित करें कि मिट्टी उपजाऊ और अच्छी तरह से तैयार हो।"
+            },
+            {
+                "week": 2,
+                "title": "Sowing Seeds in Nursery",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/e/ec/Sowing_rice_seeds.jpg",
+                "descriptionEN": "Sow pre-germinated seeds in the nursery bed. Keep the beds moist at all times.",
+                "descriptionHI": "नर्सरी बेड में अंकुरित बीजों को बोएं। बेड को हर समय नम रखें।"
+            },
+            {
+                "week": 3,
+                "title": "Puddling and Land Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/2/29/Paddy_field_puddling.jpg",
+                "descriptionEN": "Puddle the main field by ploughing and leveling under flooded conditions. This helps in controlling weeds and retaining water.",
+                "descriptionHI": "मुख्य खेत को पानी भरकर हल चलाएं और समतल करें। यह खरपतवारों को नियंत्रित करने और पानी को बनाए रखने में मदद करता है।"
+            },
+            {
+                "week": 4,
+                "title": "Transplanting Seedlings",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/7/77/Rice_transplanting_paddy.jpg",
+                "descriptionEN": "Transplant 20-25 day old seedlings from the nursery to the main field. Maintain proper row spacing.",
+                "descriptionHI": "20-25 दिन पुराने पौधों को नर्सरी से मुख्य खेत में रोपित करें। उचित कतारों के बीच दूरी बनाए रखें।"
+            },
+            {
+                "week": 5,
+                "title": "Irrigation and Fertilization",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b5/Rice_irrigation.jpg",
+                "descriptionEN": "Maintain a standing water level of 5-10 cm. Apply the first dose of nitrogen fertilizer at this stage.",
+                "descriptionHI": "5-10 सेमी पानी का स्तर बनाए रखें। इस अवस्था में नाइट्रोजन उर्वरक की पहली खुराक डालें।"
+            },
+            {
+                "week": 6,
+                "title": "Weed and Pest Management",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/f/f9/Rice_pests.jpg",
+                "descriptionEN": "Hand weeding or use herbicides to control weeds. Monitor for pests like stem borer and plant hoppers.",
+                "descriptionHI": "हाथ से निराई करें या खरपतवारों को नियंत्रित करने के लिए शाकनाशकों का उपयोग करें। तना छेदक और पौधे के टिड्डों जैसे कीटों की निगरानी करें।"
+            },
+            {
+                "week": 7,
+                "title": "Panicle Initiation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/6/6a/Rice_panicle.jpg",
+                "descriptionEN": "The panicle begins to form. This is a critical stage for grain development. Ensure the field is not dry.",
+                "descriptionHI": "बालियां बनना शुरू हो जाती हैं। यह दाना विकास के लिए एक महत्वपूर्ण अवस्था है। सुनिश्चित करें कि खेत सूखा न हो।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/2/22/Rice_harvest_india.jpg",
+                "descriptionEN": "Harvest when grains are golden and hard. Cut the plants and let them dry before threshing.",
+                "descriptionHI": "जब दाने सुनहरे और सख्त हो जाएं तब कटाई करें। पौधों को काटें और थ्रेशिंग से पहले उन्हें सूखने दें।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "sugarcane",
+            "description": "Sugarcane is a tall perennial grass. It is a primary source of sugar and is also used for making biofuels and other products.",
+            "lifecycle": "10-18 months (varies by variety and climate)",
+            "marketPrice": "₹300-350/quintal (varies by region)",
+            "season": "Best suitable season: Spring (Feb-Mar) or Autumn (Oct-Nov)",
+            "types": "Co-0238, Co-0118, Co-S 767",
+            "fertiliser": {
+                "khaad": "Well-rotted farmyard manure (FYM) 20-25 tons per hectare",
+                "fertiliser": "NPK 150:75:50 kg/ha – Nitrogen split at planting, tillering, and earthing up"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Land Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/3/37/Sugarcane_field_preparation.jpg",
+                "descriptionEN": "Plough the field deeply and prepare ridges and furrows at a distance of 90-120 cm.",
+                "descriptionHI": "खेत की गहरी जुताई करें और 90-120 सेमी की दूरी पर मेड़ें और नालियां बनाएं।"
+            },
+            {
+                "week": 2,
+                "title": "Planting Setts",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/2/2a/Sugarcane_planting.jpg",
+                "descriptionEN": "Plant 2-3 budded setts horizontally in the furrows. Cover with a thin layer of soil.",
+                "descriptionHI": "नालियों में 2-3 कली वाले सेट को क्षैतिज रूप से लगाएं। इसे मिट्टी की एक पतली परत से ढक दें।"
+            },
+            {
+                "week": 3,
+                "title": "First Irrigation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/8/8e/Sugarcane_irrigation.jpg",
+                "descriptionEN": "Give light irrigation immediately after planting. Maintain a moist environment for germination.",
+                "descriptionHI": "रोपण के तुरंत बाद हल्की सिंचाई करें। अंकुरण के लिए नम वातावरण बनाए रखें।"
+            },
+            {
+                "week": 4,
+                "title": "Germination and Gap Filling",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/0/07/Sugarcane_sprouting.jpg",
+                "descriptionEN": "Monitor germination and fill any gaps with new setts to ensure a uniform crop stand.",
+                "descriptionHI": "अंकुरण की निगरानी करें और एक समान फसल सुनिश्चित करने के लिए नए सेट के साथ किसी भी अंतराल को भरें।"
+            },
+            {
+                "week": 5,
+                "title": "Weeding and Hoeing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/a/a2/Weeding_in_sugarcane.jpg",
+                "descriptionEN": "Remove weeds by hand or using a hoe. This also helps to aerate the soil.",
+                "descriptionHI": "हाथ से या कुदाल का उपयोग करके खरपतवार हटाएं। यह मिट्टी को हवादार बनाने में भी मदद करता है।"
+            },
+            {
+                "week": 6,
+                "title": "Fertilizer Application",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fertilizer_spread.jpg",
+                "descriptionEN": "Apply the first dose of chemical fertilizers, including nitrogen, phosphorus, and potassium.",
+                "descriptionHI": "नाइट्रोजन, फास्फोरस और पोटेशियम सहित रासायनिक उर्वरकों की पहली खुराक डालें।"
+            },
+            {
+                "week": 7,
+                "title": "Earthing up",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/6/69/Sugarcane_earthing_up.jpg",
+                "descriptionEN": "Earthing up is done to cover the base of the plant to provide support and prevent lodging.",
+                "descriptionHI": "पौधों को सहारा देने और गिरने से रोकने के लिए मिट्टी चढ़ाई जाती है।"
+            },
+            {
+                "week": 8,
+                "title": "Pest and Disease Management",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/f/f0/Sugarcane_borer.jpg",
+                "descriptionEN": "Regularly monitor for pests like borers and diseases like red rot. Spray insecticides/fungicides if required.",
+                "descriptionHI": "तना छेदक जैसे कीटों और लाल सड़न जैसे रोगों की नियमित रूप से निगरानी करें। आवश्यकता होने पर कीटनाशक/फफूंदनाशक का छिड़काव करें।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "pulses",
+            "description": "Pulses are a major source of protein, fiber, and essential micronutrients. They are nitrogen-fixing and improve soil fertility.",
+            "lifecycle": "70-120 days (varies by crop)",
+            "marketPrice": "₹60-120/kg (varies by type)",
+            "season": "Best suitable season: Kharif (moong, urad) and Rabi (gram, lentil)",
+            "types": "Moong (Green Gram), Urad (Black Gram), Arhar (Pigeon Pea), Chana (Gram)",
+            "fertiliser": {
+                "khaad": "Farmyard manure (FYM) 5-10 tons per hectare",
+                "fertiliser": "NPK 20:50:20 kg/ha – Pulses require less nitrogen due to nitrogen fixation"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Soil Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/4/47/Ploughing_field.jpg",
+                "descriptionEN": "Give 1-2 ploughings and level the land. Ensure the soil is fine and has a good tilth.",
+                "descriptionHI": "1-2 जुताई करें और खेत को समतल करें। सुनिश्चित करें कि मिट्टी बारीक और अच्छी तरह से तैयार हो।"
+            },
+            {
+                "week": 2,
+                "title": "Seed Sowing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b8/Sowing_moong_seeds.jpg",
+                "descriptionEN": "Sow seeds at a depth of 3-5 cm. Use a seed drill for uniform spacing and depth.",
+                "descriptionHI": "बीजों को 3-5 सेमी की गहराई पर बोएं। एक समान दूरी और गहराई के लिए बीज ड्रिल का उपयोग करें।"
+            },
+            {
+                "week": 3,
+                "title": "First Irrigation",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Irrigation.jpg",
+                "descriptionEN": "Pulses are sensitive to waterlogging. Provide light irrigation if the soil is dry, but avoid overwatering.",
+                "descriptionHI": "दलहन जलभराव के प्रति संवेदनशील होते हैं। यदि मिट्टी सूखी हो तो हल्की सिंचाई करें, लेकिन अत्यधिक पानी देने से बचें।"
+            },
+            {
+                "week": 4,
+                "title": "Weed Management",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/3/36/Weeding_in_pulses.jpg",
+                "descriptionEN": "Hand weeding or inter-cultivation to remove weeds. This is crucial for early growth.",
+                "descriptionHI": "खरपतवारों को हटाने के लिए हाथ से निराई या अंतर-खेती करें। यह प्रारंभिक वृद्धि के लिए महत्वपूर्ण है।"
+            },
+            {
+                "week": 5,
+                "title": "Flowering Stage",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/8/87/Pulses_flowering.jpg",
+                "descriptionEN": "The crop starts flowering. Ensure proper nutrient and water availability at this stage.",
+                "descriptionHI": "फसल में फूल आना शुरू हो जाते हैं। इस अवस्था में उचित पोषक तत्व और पानी की उपलब्धता सुनिश्चित करें।"
+            },
+            {
+                "week": 6,
+                "title": "Pod Formation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/d/da/Pulses_pods.jpg",
+                "descriptionEN": "Pods begin to form. Avoid water stress to ensure good pod development and yield.",
+                "descriptionHI": "फलियां बनना शुरू हो जाती हैं। अच्छी फली के विकास और पैदावार के लिए पानी की कमी से बचें।"
+            },
+            {
+                "week": 7,
+                "title": "Pest and Disease Monitoring",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/f/f6/Pulse_pod_borer.jpg",
+                "descriptionEN": "Monitor for pod borers and wilt diseases. Spray recommended pesticides or fungicides if needed.",
+                "descriptionHI": "फली छेदक और उकठा रोग की निगरानी करें। आवश्यकता पड़ने पर अनुशंसित कीटनाशकों या फफूंदनाशकों का छिड़काव करें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/1/1a/Pulse_harvesting.jpg",
+                "descriptionEN": "Harvest when pods are dry and mature. Plants are cut and left to dry before threshing.",
+                "descriptionHI": "जब फलियां सूख जाएं और परिपक्व हो जाएं तो कटाई करें। थ्रेशिंग से पहले पौधों को काटकर सूखने के लिए छोड़ दें।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "millets",
+            "description": "Millets are a group of highly nutritious and drought-resistant small-seeded grasses. They are a valuable crop in arid and semi-arid regions.",
+            "lifecycle": "60-90 days (short-duration varieties)",
+            "marketPrice": "₹40-80/kg (varies by type)",
+            "season": "Best suitable season: Kharif (monsoon season)",
+            "types": "Bajra (Pearl Millet), Jowar (Sorghum), Ragi (Finger Millet)",
+            "fertiliser": {
+                "khaad": "Farmyard manure (FYM) 5-10 tons per hectare",
+                "fertiliser": "NPK 40:20:20 kg/ha – Millets are low nutrient demanding crops"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Soil Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/e/ec/Millet_field_preparation.jpg",
+                "descriptionEN": "Prepare a fine, weed-free seedbed. A light ploughing and harrowing are sufficient.",
+                "descriptionHI": "एक बारीक, खरपतवार-मुक्त बीज बिस्तर तैयार करें। हल्की जुताई और हैरोइंग पर्याप्त हैं।"
+            },
+            {
+                "week": 2,
+                "title": "Sowing Seeds",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/a/a2/Sowing_bajra_seeds.jpg",
+                "descriptionEN": "Sow seeds at a depth of 2-3 cm. Use a seed drill or broadcast method.",
+                "descriptionHI": "बीजों को 2-3 सेमी की गहराई पर बोएं। बीज ड्रिल या छिड़काव विधि का उपयोग करें।"
+            },
+            {
+                "week": 3,
+                "title": "Weed Management and Thinning",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/8/86/Weeding_in_millet.jpg",
+                "descriptionEN": "Hand weeding is crucial in the early stages. Thin out crowded seedlings to maintain proper plant spacing.",
+                "descriptionHI": "प्रारंभिक अवस्था में हाथ से निराई करना महत्वपूर्ण है। उचित पौधे की दूरी बनाए रखने के लिए भीड़भाड़ वाले पौधों को पतला करें।"
+            },
+            {
+                "week": 4,
+                "title": "Fertilizer Application",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fertilizer_spread.jpg",
+                "descriptionEN": "Apply the first dose of nitrogen and phosphorus fertilizers. Millets respond well to early fertilizer application.",
+                "descriptionHI": "नाइट्रोजन और फास्फोरस उर्वरकों की पहली खुराक डालें। बाजरा प्रारंभिक उर्वरक अनुप्रयोग के प्रति अच्छी तरह से प्रतिक्रिया करता है।"
+            },
+            {
+                "week": 5,
+                "title": "Tillering Stage",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b3/Bajra_tillering.jpg",
+                "descriptionEN": "The plant starts to produce tillers. This is a critical growth stage. Ensure soil moisture is adequate.",
+                "descriptionHI": "पौधा टिलर बनाना शुरू कर देता है। यह एक महत्वपूर्ण विकास अवस्था है। सुनिश्चित करें कि मिट्टी की नमी पर्याप्त हो।"
+            },
+            {
+                "week": 6,
+                "title": "Pest Monitoring",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/9/90/Millet_pests.jpg",
+                "descriptionEN": "Monitor for pests like shoot fly and diseases like downy mildew. Spray recommended pesticides if needed.",
+                "descriptionHI": "शूट फ्लाई जैसे कीटों और डाउनी मिल्ड्यू जैसे रोगों की निगरानी करें। आवश्यकता पड़ने पर अनुशंसित कीटनाशकों का छिड़काव करें।"
+            },
+            {
+                "week": 7,
+                "title": "Grain Filling",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/2/2a/Millet_grains_on_head.jpg",
+                "descriptionEN": "Grains start to fill. This is the last critical stage for yield. Maintain proper water availability.",
+                "descriptionHI": "दाने भरना शुरू हो जाते हैं। यह पैदावार के लिए अंतिम महत्वपूर्ण अवस्था है। उचित पानी की उपलब्धता बनाए रखें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/8/80/Millet_harvesting.jpg",
+                "descriptionEN": "Harvest when the heads are dry and the grains are hard. Cut the plants and thresh to separate the grains.",
+                "descriptionHI": "जब सिर सूख जाएं और दाने सख्त हो जाएं तो कटाई करें। दानों को अलग करने के लिए पौधों को काटें और थ्रेश करें।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "Maize",
+            "description": "Maize, also known as corn, is a versatile crop used for human consumption, animal feed, and industrial products.",
+            "lifecycle": "80-120 days (varies by variety)",
+            "marketPrice": "₹15-20/kg (varies by region and type)",
+            "season": "Best suitable season: Kharif (monsoon season)",
+            "types": "Hybrid varieties (e.g., DHM-117), Composite varieties",
+            "fertiliser": {
+                "khaad": "Farmyard manure (FYM) or compost at 10-15 tons per hectare",
+                "fertiliser": "NPK 120:60:40 kg/ha – Nitrogen split at sowing, knee-high stage, and tasselling"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Land Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/6/63/Maize_field_ploughing.jpg",
+                "descriptionEN": "Plough the land to a fine tilth and create furrows for planting. Ensure good drainage.",
+                "descriptionHI": "खेत की जुताई करके बारीक मिट्टी तैयार करें और बुवाई के लिए नालियां बनाएं। अच्छी जल निकासी सुनिश्चित करें।"
+            },
+            {
+                "week": 2,
+                "title": "Sowing Seeds",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/5/5a/Sowing_maize.jpg",
+                "descriptionEN": "Sow seeds at a depth of 3-4 cm. Maintain proper row and plant spacing.",
+                "descriptionHI": "बीजों को 3-4 सेमी की गहराई पर बोएं। उचित कतार और पौधे की दूरी बनाए रखें।"
+            },
+            {
+                "week": 3,
+                "title": "Weeding and Hoeing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/a/aa/Weeding_in_maize.jpg",
+                "descriptionEN": "Remove weeds by hand or using a hoe. This also helps to break the soil crust.",
+                "descriptionHI": "हाथ से या कुदाल का उपयोग करके खरपतवार हटाएं। यह मिट्टी की पपड़ी को तोड़ने में भी मदद करता है।"
+            },
+            {
+                "week": 4,
+                "title": "Fertilizer Application",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fertilizer_spread.jpg",
+                "descriptionEN": "Apply the first dose of nitrogen and all of the phosphorus and potassium fertilizers.",
+                "descriptionHI": "नाइट्रोजन की पहली खुराक और सभी फास्फोरस और पोटेशियम उर्वरक डालें।"
+            },
+            {
+                "week": 5,
+                "title": "Knee-High Stage",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/9/90/Maize_knee_high.jpg",
+                "descriptionEN": "The plants are about knee-high. Apply the second dose of nitrogen fertilizer at this stage.",
+                "descriptionHI": "पौधे घुटने तक ऊंचे होते हैं। इस अवस्था में नाइट्रोजन उर्वरक की दूसरी खुराक डालें।"
+            },
+            {
+                "week": 6,
+                "title": "Tasselling and Silking",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/8/83/Maize_tassels_and_silks.jpg",
+                "descriptionEN": "Tassels and silks appear. Ensure proper irrigation during this critical stage for pollination.",
+                "descriptionHI": "पुष्पदंड और रेशम दिखाई देते हैं। परागण के लिए इस महत्वपूर्ण अवस्था में उचित सिंचाई सुनिश्चित करें।"
+            },
+            {
+                "week": 7,
+                "title": "Grain Filling",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/f/f6/Maize_cob.jpg",
+                "descriptionEN": "Cobs and grains begin to fill. Ensure adequate water and nutrients for good grain development.",
+                "descriptionHI": "भुट्टे और दाने भरना शुरू हो जाते हैं। अच्छी दाना विकास के लिए पर्याप्त पानी और पोषक तत्व सुनिश्चित करें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b5/Maize_harvest.jpg",
+                "descriptionEN": "Harvest when the cobs are dry and the grains are hard. Remove the cobs from the plants.",
+                "descriptionHI": "जब भुट्टे सूख जाएं और दाने सख्त हो जाएं तो कटाई करें। पौधों से भुट्टों को हटा दें।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "Jute",
+            "description": "Jute is a natural fiber used for making burlap, hessian cloth, and sackcloth. It is a rainy season crop.",
+            "lifecycle": "120-150 days from sowing to harvesting",
+            "marketPrice": "₹6000-8000/quintal (varies by region)",
+            "season": "Best suitable season: March to May (Pre-monsoon)",
+            "types": "Corchorus olitorius (Tossa jute), Corchorus capsularis (White jute)",
+            "fertiliser": {
+                "khaad": "Farmyard manure (FYM) 5-7 tons per hectare",
+                "fertiliser": "NPK 40:20:20 kg/ha – Nitrogen split at first weeding and second weeding"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Soil Preparation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/3/3d/Jute_field_preparation.jpg",
+                "descriptionEN": "Prepare a fine, pulverized seedbed by ploughing and harrowing. Ensure the land is level.",
+                "descriptionHI": "जुताई और हैरोइंग करके एक बारीक, चूर्णित बीज बिस्तर तैयार करें। सुनिश्चित करें कि खेत समतल हो।"
+            },
+            {
+                "week": 2,
+                "title": "Seed Sowing",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/f/f3/Sowing_jute_seeds.jpg",
+                "descriptionEN": "Sow seeds either by broadcasting or in lines. Maintain a seed rate of 5-7 kg per hectare.",
+                "descriptionHI": "बीजों को छिड़काव या कतारों में बोएं। 5-7 किलोग्राम प्रति हेक्टेयर की बीज दर बनाए रखें।"
+            },
+            {
+                "week": 3,
+                "title": "First Weeding and Thinning",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/a/aa/Weeding_in_jute.jpg",
+                "descriptionEN": "Thin out crowded plants to maintain proper spacing. This is done after the plants are about 15 cm tall.",
+                "descriptionHI": "उचित दूरी बनाए रखने के लिए भीड़भाड़ वाले पौधों को पतला करें। यह तब किया जाता है जब पौधे लगभग 15 सेमी ऊंचे हो जाएं।"
+            },
+            {
+                "week": 4,
+                "title": "First Fertilizer Application",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fertilizer_spread.jpg",
+                "descriptionEN": "Apply the first dose of nitrogen and all of the phosphorus and potassium fertilizers.",
+                "descriptionHI": "नाइट्रोजन की पहली खुराक और सभी फास्फोरस और पोटेशियम उर्वरक डालें।"
+            },
+            {
+                "week": 5,
+                "title": "Second Weeding",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/a/aa/Weeding_in_jute.jpg",
+                "descriptionEN": "Perform a second weeding to remove any remaining weeds and apply the final dose of nitrogen.",
+                "descriptionHI": "बचे हुए खरपतवारों को हटाने के लिए दूसरी निराई करें और नाइट्रोजन की अंतिम खुराक डालें।"
+            },
+            {
+                "week": 6,
+                "title": "Pest Management",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/e/ec/Jute_pests.jpg",
+                "descriptionEN": "Monitor for pests like stem weevil and mealybugs. Spray insecticides if the infestation is severe.",
+                "descriptionHI": "तना घुन और मिलीबग जैसे कीटों की निगरानी करें। यदि संक्रमण गंभीर हो तो कीटनाशकों का छिड़काव करें।"
+            },
+            {
+                "week": 7,
+                "title": "Fibre Formation",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b3/Jute_plant_ready_for_harvest.jpg",
+                "descriptionEN": "The plant is now tall and the fibre is forming in the stem. Avoid any stress to the plants.",
+                "descriptionHI": "पौधा अब लंबा है और तने में रेशा बन रहा है। पौधों पर किसी भी तनाव से बचें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting and Retting",
+                "image": "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/b/b1/Jute_reaping.jpg",
+                "descriptionEN": "Harvest plants when they are flowering. The stems are then retted in water to separate the fibers.",
+                "descriptionHI": "जब पौधे फूल रहे हों तब कटाई करें। रेशों को अलग करने के लिए तनों को पानी में सड़ाया जाता है।"
+            }
+        ]
+    },
+    {
+        "generalInfo": {
+            "name": "potato",
+            "description": "Potato is a staple crop cultivated in many regions of India. It is grown in both rabi and kharif seasons depending on the region.",
+            "lifecycle": "3 to 4 months",
+            "marketPrice": "₹10–20 per kg",
+            "season": "Rabi and Kharif",
+            "types": "Kufri Jyoti, Kufri Pukhraj, Kufri Bahar",
+            "fertiliser": {
+                "khaad": "Well decomposed FYM (Farm Yard Manure) 20–25 tonnes per hectare",
+                "fertiliser": "Nitrogen 150 kg, Phosphorus 80 kg, Potassium 100 kg per hectare"
+            }
+        },
+        "weekData": [
+            {
+                "week": 1,
+                "title": "Land Preparation",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ploughing_with_tractor.jpg",
+                "descriptionEN": "Prepare the land by ploughing 2–3 times and apply FYM before sowing.",
+                "descriptionHI": "बुवाई से पहले खेत की 2–3 बार जुताई करें और गोबर की खाद डालें।"
+            },
+            {
+                "week": 2,
+                "title": "Seed Sowing",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Potato_seeds.jpg",
+                "descriptionEN": "Use healthy and disease-free tubers of 30–40g weight for sowing.",
+                "descriptionHI": "बुवाई के लिए 30–40 ग्राम वजन वाले स्वस्थ बीज कंद का उपयोग करें।"
+            },
+            {
+                "week": 3,
+                "title": "Irrigation",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Drip_irrigation_in_field.jpg",
+                "descriptionEN": "Provide light irrigation after sowing and maintain soil moisture.",
+                "descriptionHI": "बुवाई के बाद हल्की सिंचाई करें और नमी बनाए रखें।"
+            },
+            {
+                "week": 4,
+                "title": "Weeding",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Farmer_weeding_field.jpg",
+                "descriptionEN": "Remove weeds manually or by intercultural operations.",
+                "descriptionHI": "खरपतवार को हाथ से या अंतरसांस्कृतिक क्रियाओं द्वारा हटाएँ।"
+            },
+            {
+                "week": 5,
+                "title": "Fertilizer Application",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fertilizer_application.jpg",
+                "descriptionEN": "Apply Nitrogen, Phosphorus, and Potassium fertilizers as per schedule.",
+                "descriptionHI": "नाइट्रोजन, फास्फोरस और पोटाश की खाद अनुसूची अनुसार डालें।"
+            },
+            {
+                "week": 6,
+                "title": "Pest Management",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Pest_spraying_in_field.jpg",
+                "descriptionEN": "Spray insecticides to protect from aphids and potato tuber moth.",
+                "descriptionHI": "आलू के पौधों को एफिड्स और कंद कीट से बचाने के लिए छिड़काव करें।"
+            },
+            {
+                "week": 7,
+                "title": "Tuber Development",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Potato_plant_with_tubers.jpg",
+                "descriptionEN": "Ensure proper irrigation and field management during tuber formation.",
+                "descriptionHI": "कंद बनने के समय उचित सिंचाई और खेत का प्रबंधन करें।"
+            },
+            {
+                "week": 8,
+                "title": "Harvesting",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Potato_harvest.jpg",
+                "descriptionEN": "Harvest potatoes when the crop matures and leaves turn yellow.",
+                "descriptionHI": "जब फसल पक जाए और पत्तियाँ पीली हो जाएँ तो खुदाई करें।"
+            }
+        ]
+    }
+]
