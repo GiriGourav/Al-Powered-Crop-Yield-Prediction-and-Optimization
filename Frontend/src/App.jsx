@@ -7,7 +7,9 @@ import Home from './pages/Home';
 import './App.css'
 import Suggestions from './pages/Suggestions';
 import KnowlegdePage from './pages/KnowlegdePage';
-
+import Selection from './pages/Selection';
+import ProtectedRoutes from './components/ProtectedRoutes';
+import GovSchems from './pages/GovSchems';
 function App() {
 return (
     <>
@@ -16,10 +18,42 @@ return (
           <Route path={'/'} element={<Home />} />
           <Route path={'/login'} element={<Login />} />
           <Route path={'/signup'} element={<Signup />} />
-          <Route path={'/form'} element={<Form />} />
-          <Route path={'/suggestions'} element={<Suggestions />} />
-          <Route path={"/knowledge/:id"} element={<KnowlegdePage />} />
-          <Route path={'*'} element={<Home />} />
+          <Route path={'/form'} element={
+            //  <ProtectedRoutes>
+               <Form />
+            //  </ProtectedRoutes>
+            } />
+          <Route path={'/selection'} element={
+            //  <ProtectedRoutes>
+
+               <Selection />
+            //  </ProtectedRoutes>
+            } />
+          <Route path={'/suggestions'} element={
+            // <ProtectedRoutes>
+              <Suggestions />
+            // </ProtectedRoutes>
+            } />
+          <Route path={"/knowledge/:id"} element={
+            // <ProtectedRoutes>
+
+              <KnowlegdePage />
+            // </ProtectedRoutes>
+            } />
+             <Route path={"/gov-schemes"} element={
+            // <ProtectedRoutes>
+
+              <GovSchems />
+            // </ProtectedRoutes>
+            } />
+             
+
+          <Route path={'*'} element={
+            // <ProtectedRoutes>
+
+              <Home />
+            // </ProtectedRoutes>
+            } />
         </Routes>
       </BrowserRouter>
     </>
